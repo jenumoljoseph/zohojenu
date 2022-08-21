@@ -77,3 +77,12 @@ int main()
 
 	return 0;
 }
+
+
+/*
+Output
+
+PS C:\Users\USER\Documents\GitHub\zohojenu> cd "c:\Users\USER\Documents\GitHub\zohojenu\" ; if ($?) { g++ 5.cpp -o 5 } ; if ($?) { .\5 }
+Shortest Path is 11
+
+*/

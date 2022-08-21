@@ -1,5 +1,4 @@
 #include <iostream>
-//#include <algorithm>
 using namespace std;
 int main()
 {
@@ -8,17 +7,10 @@ int main()
 	int result;
 	cout<<"Enter the number of integer:";
 	cin>>n;
-	//cout<<n;
 	for(int i=0;i<n;i++)
 	{
 		cin>>arr[i];
 	}
-	/*cout<<"\nthe numbers are :";
-	for(int j=0;j<n;j++)
-	{
-		cout<<arr[j]<<" ";
-	}
-	*/
 	cout<<"Enter the target sum: ";
 	cin>>t;
 
@@ -51,3 +43,32 @@ int sum(int arr[],int n,int t)
 	}
 	return 0;
 }
+/*
+Output
+
+Enter the number of integer:4
+2
+7
+11
+15
+Enter the target sum: 9
+Possible
+PS C:\Users\USER\Desktop\New folder\final> cd "c:\Users\USER\Desktop\New folder\final\" ; if ($?) { g++ 1.cpp -o 1 } ; if ($?) { .\1 }
+Enter the number of integer:5
+2
+4
+5
+7
+8
+Enter the target sum: 11
+Possible
+PS C:\Users\USER\Desktop\New folder\final> cd "c:\Users\USER\Desktop\New folder\final\" ; if ($?) { g++ 1.cpp -o 1 } ; if ($?) { .\1 }
+Enter the number of integer:5
+2
+8
+5
+7
+18
+Enter the target sum: 3
+Not Possible
+*/

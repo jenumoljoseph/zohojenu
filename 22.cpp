@@ -1,5 +1,4 @@
 #include <bits/stdc++.h>
-//#include<iostream>
 using namespace std;
 class Solution {
    public:
@@ -23,7 +22,19 @@ class Solution {
    }
 };
 main(){
-   vector<int> v = {3,9,4,5,8,0};
+   vector<int> v = {3,2,4,5,8,1};
    Solution ob;
    cout << (ob.lastStoneWeightII(v));
 }
+
+/*
+
+Output
+Test case :1
+PS C:\Users\USER\Documents\GitHub\zohojenu> cd "c:\Users\USER\Documents\GitHub\zohojenu\" ; if ($?) { g++ 22.cpp -o 22 } ; if ($?) { .\22 }
+0
+Test case :2
+PS C:\Users\USER\Documents\GitHub\zohojenu> cd "c:\Users\USER\Documents\GitHub\zohojenu\" ; if ($?) { g++ 22.cpp -o 22 } ; if ($?) { .\22 }
+1
+
+*/
